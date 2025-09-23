@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Leg Exercise List</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial;
+        padding: 2rem;
+      }
+      h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+      .exercise-info span {
+        display: block;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50">
+    <h1 class="text-center text-3xl font-bold mb-8">Leg Exercise List</h1>
+    <div class="grid grid-cols-4 gap-4">
+      <!-- Squats -->
+      <div
+        class="flex flex-col items-center gap-6 p-7 md:flex-row rounded-2xl bg-white shadow-md mb-6"
+      >
+        <div>
+          <img
+            class="size-48 shadow-xl rounded-md"
+            alt="./IMAGESSOURCE/SQUAT.gif"
+            src="https://media.tenor.com/Pfj8vy41k-0AAAAM/gym.gif"
+          />
+        </div>
+        <div class="exercise-info">
+          <span class="text-2xl font-semibold">Squats</span>
+          <span class="font-medium text-sky-500"
+            >The king of leg exercises – targets quads, glutes, and
+            hamstrings.</span
+          >
+          <span class="text-gray-700">4 sets</span>
+          <span class="text-gray-700">12, 10, 8, 6 reps</span>
+          <span class="text-gray-700"
+            >Progressive overload with barbell or dumbbells</span
+          >
+        </div>
+      </div>
+
+      <!-- Lunges -->
+      <div
+        class="flex flex-col items-center gap-6 p-7 md:flex-row rounded-2xl bg-white shadow-md mb-6"
+      >
+        <div>
+          <img
+            class="size-48 shadow-xl rounded-md"
+            alt="./IMAGESSOURCE/LUNGES.gif"
+            src="https://media.tenor.com/sZ7VwZ6jrbcAAAAM/gym.gif"
+          />
+        </div>
+        <div class="exercise-info">
+          <span class="text-2xl font-semibold">Lunges</span>
+          <span class="font-medium text-sky-500"
+            >Great unilateral movement for balance, stability, and
+            quads/glutes.</span
+          >
+          <span class="text-gray-700">3 sets</span>
+          <span class="text-gray-700">12 reps each leg</span>
+          <span class="text-gray-700">Bodyweight or dumbbells</span>
+        </div>
+      </div>
+
+      <!-- Leg Press -->
+      <div
+        class="flex flex-col items-center gap-6 p-7 md:flex-row rounded-2xl bg-white shadow-md mb-6"
+      >
+        <div>
+          <img
+            class="size-48 shadow-xl rounded-md"
+            alt="./IMAGESSOURCE/LEGPRESS.gif"
+            src="https://burnfit.io/wp-content/uploads/2023/11/LEG_PRESS.gif"
+          />
+        </div>
+        <div class="exercise-info">
+          <span class="text-2xl font-semibold">Leg Press</span>
+          <span class="font-medium text-sky-500"
+            >Mass builder that isolates quads and glutes safely.</span
+          >
+          <span class="text-gray-700">4 sets</span>
+          <span class="text-gray-700">12, 10, 8, 6 reps</span>
+          <span class="text-gray-700">Increase weight each set</span>
+        </div>
+      </div>
+
+      <!-- Romanian Deadlifts -->
+      <div
+        class="flex flex-col items-center gap-6 p-7 md:flex-row rounded-2xl bg-white shadow-md mb-6"
+      >
+        <div>
+          <img
+            class="size-48 shadow-xl rounded-md"
+            alt="./IMAGESSOURCE/RDL.gif"
+            src="https://www.inspireusafoundation.org/file/2021/11/dumbbell-romanian-deadlift.gif"
+          />
+        </div>
+        <div class="exercise-info">
+          <span class="text-2xl font-semibold">Romanian Deadlifts</span>
+          <span class="font-medium text-sky-500"
+            >Targets hamstrings and glutes with a deep stretch.</span
+          >
+          <span class="text-gray-700">4 sets</span>
+          <span class="text-gray-700">10 reps</span>
+          <span class="text-gray-700">Focus on controlled motion</span>
+        </div>
+      </div>
+
+      <!-- Leg Extensions -->
+      <div
+        class="flex flex-col items-center gap-6 p-7 md:flex-row rounded-2xl bg-white shadow-md mb-6"
+      >
+        <div>
+          <img
+            class="size-48 shadow-xl rounded-md"
+            alt="./IMAGESSOURCE/LEGEXTENSION.gif"
+            src="https://www.inspireusafoundation.org/file/2023/07/leg-extension-toes-inward.gif"
+          />
+        </div>
+        <div class="exercise-info">
+          <span class="text-2xl font-semibold">Leg Extensions</span>
+          <span class="font-medium text-sky-500"
+            >Isolation exercise for quad definition.</span
+          >
+          <span class="text-gray-700">3 sets</span>
+          <span class="text-gray-700">12–15 reps</span>
+          <span class="text-gray-700">Light to moderate weight</span>
+        </div>
+      </div>
+
+      <!-- Hamstring Curls -->
+      <div
+        class="flex flex-col items-center gap-6 p-7 md:flex-row rounded-2xl bg-white shadow-md mb-6"
+      >
+        <div>
+          <img
+            class="size-48 shadow-xl rounded-md"
+            alt="./IMAGESSOURCE/HAMSTRING.gif"
+            src="https://burnfit.io/wp-content/uploads/2023/11/LEG_CURL.gif"
+          />
+        </div>
+        <div class="exercise-info">
+          <span class="text-2xl font-semibold">Hamstring Curls</span>
+          <span class="font-medium text-sky-500"
+            >Isolates hamstrings and prevents muscle imbalance.</span
+          >
+          <span class="text-gray-700">3 sets</span>
+          <span class="text-gray-700">12–15 reps</span>
+          <span class="text-gray-700">Controlled motion</span>
+        </div>
+      </div>
+
+      <!-- Bulgarian Split Squats -->
+      <div
+        class="flex flex-col items-center gap-6 p-7 md:flex-row rounded-2xl bg-white shadow-md mb-6"
+      >
+        <div>
+          <img
+            class="size-48 shadow-xl rounded-md"
+            alt="./IMAGESSOURCE/BULGARIAN.gif"
+            src="https://www.inspireusafoundation.org/file/2022/03/bulgarian-split-spuat.gif"
+          />
+        </div>
+        <div class="exercise-info">
+          <span class="text-2xl font-semibold">Bulgarian Split Squats</span>
+          <span class="font-medium text-sky-500"
+            >Powerful unilateral exercise for quads and glutes.</span
+          >
+          <span class="text-gray-700">3 sets</span>
+          <span class="text-gray-700">12 reps each leg</span>
+          <span class="text-gray-700">Dumbbells optional</span>
+        </div>
+      </div>
+
+      <!-- Step-Ups -->
+      <div
+        class="flex flex-col items-center gap-6 p-7 md:flex-row rounded-2xl bg-white shadow-md mb-6"
+      >
+        <div>
+          <img
+            class="size-48 shadow-xl rounded-md"
+            alt="./IMAGESSOURCE/STEPUP.gif"
+            src="https://www.inspireusafoundation.org/file/2022/07/weighted-step-up.gif"
+          />
+        </div>
+        <div class="exercise-info">
+          <span class="text-2xl font-semibold">Step-Ups</span>
+          <span class="font-medium text-sky-500"
+            >Great for functional strength and athletic performance.</span
+          >
+          <span class="text-gray-700">3 sets</span>
+          <span class="text-gray-700">12 reps each leg</span>
+          <span class="text-gray-700">Use a bench or platform</span>
+        </div>
+      </div>
+
+      <!-- Calf Raises -->
+      <div
+        class="flex flex-col items-center gap-6 p-7 md:flex-row rounded-2xl bg-white shadow-md mb-6"
+      >
+        <div>
+          <img
+            class="size-48 shadow-xl rounded-md"
+            alt="./IMAGESSOURCE/CALFRAISE.gif"
+            src="https://fitliferegime.com/wp-content/uploads/2023/05/Single-Leg-Standing-Calf-Raise.gif"
+          />
+        </div>
+        <div class="exercise-info">
+          <span class="text-2xl font-semibold">Calf Raises</span>
+          <span class="font-medium text-sky-500"
+            >Builds calf strength and definition.</span
+          >
+          <span class="text-gray-700">4 sets</span>
+          <span class="text-gray-700">15–20 reps</span>
+          <span class="text-gray-700">Bodyweight or weighted</span>
+        </div>
+      </div>
+
+      <!-- Glute Bridges -->
+      <div
+        class="flex flex-col items-center gap-6 p-7 md:flex-row rounded-2xl bg-white shadow-md mb-6"
+      >
+        <div>
+          <img
+            class="size-48 shadow-xl rounded-md"
+            alt="./IMAGESSOURCE/GLUTE.gif"
+            src="https://ccuuubmtdurkmbeufybi.supabase.co/storage/v1/object/public/animations/1409.gif"
+          />
+        </div>
+        <div class="exercise-info">
+          <span class="text-2xl font-semibold">Glute Bridges</span>
+          <span class="font-medium text-sky-500"
+            >Targets glutes and hamstrings; great finisher.</span
+          >
+          <span class="text-gray-700">3 sets</span>
+          <span class="text-gray-700">15 reps</span>
+          <span class="text-gray-700">Bodyweight or barbell</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

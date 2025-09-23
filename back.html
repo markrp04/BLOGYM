@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Back Exercise List</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial;
+        padding: 2rem;
+      }
+      h1 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+      .exercise-info span {
+        display: block;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50">
+    <h1 class="text-center text-3xl font-bold mb-8">Back Exercise List</h1>
+    <div class="grid grid-cols-4 gap-4">
+      <!-- Pull-Ups -->
+      <div
+        class="flex flex-col items-center gap-6 p-7 md:flex-row rounded-2xl bg-white shadow-md mb-6"
+      >
+        <div>
+          <img
+            class="size-48 shadow-xl rounded-md"
+            alt="./IMAGESSOURCE/PULLUPS.gif"
+            src="https://hips.hearstapps.com/hmg-prod/images/pull-up-647dd51506791.gif?resize=980:*"
+          />
+        </div>
+        <div class="exercise-info">
+          <span class="text-2xl font-semibold">Pull-Ups</span>
+          <span class="font-medium text-sky-500"
+            >Builds width and overall back strength.</span
+          >
+          <span class="text-gray-700">3 sets</span>
+          <span class="text-gray-700">8–12 reps</span>
+          <span class="text-gray-700">Bodyweight or add weight</span>
+        </div>
+      </div>
+
+      <!-- Lat Pulldown -->
+      <div
+        class="flex flex-col items-center gap-6 p-7 md:flex-row rounded-2xl bg-white shadow-md mb-6"
+      >
+        <div>
+          <img
+            class="size-48 shadow-xl rounded-md"
+            alt="./IMAGESSOURCE/LATPULLDOWN.gif"
+            src="https://www.inspireusafoundation.org/file/2022/08/wide-grip-lat-pulldown.gif"
+          />
+        </div>
+        <div class="exercise-info">
+          <span class="text-2xl font-semibold">Lat Pulldown</span>
+          <span class="font-medium text-sky-500"
+            >Targets the lats, mimics pull-ups with adjustable weight.</span
+          >
+          <span class="text-gray-700">4 sets</span>
+          <span class="text-gray-700">12, 10, 8, 6 reps</span>
+          <span class="text-gray-700">Progressive overload</span>
+        </div>
+      </div>
+
+      <!-- Bent-Over Rows -->
+      <div
+        class="flex flex-col items-center gap-6 p-7 md:flex-row rounded-2xl bg-white shadow-md mb-6"
+      >
+        <div>
+          <img
+            class="size-48 shadow-xl rounded-md"
+            alt="./IMAGESSOURCE/.BENTOVER.gif"
+            src="https://media.tenor.com/AYJ_bNXDvoUAAAAM/workout-muscles.gif"
+          />
+        </div>
+        <div class="exercise-info">
+          <span class="text-2xl font-semibold">Bent-Over Rows</span>
+          <span class="font-medium text-sky-500"
+            >Thickens mid-back and builds pulling strength.</span
+          >
+          <span class="text-gray-700">4 sets</span>
+          <span class="text-gray-700">8–10 reps</span>
+          <span class="text-gray-700">Barbell or Dumbbell</span>
+        </div>
+      </div>
+
+      <!-- Deadlifts -->
+      <div
+        class="flex flex-col items-center gap-6 p-7 md:flex-row rounded-2xl bg-white shadow-md mb-6"
+      >
+        <div>
+          <img
+            class="size-48 shadow-xl rounded-md"
+            alt="./IMAGESSOURCE/DL.gif"
+            src="https://newlife.com.cy/wp-content/uploads/2018/12/22141301-Barbell-Deadlift-female_Hips_720-720x600.gif"
+          />
+        </div>
+        <div class="exercise-info">
+          <span class="text-2xl font-semibold">Deadlifts</span>
+          <span class="font-medium text-sky-500"
+            >King of back exercises, works full posterior chain.</span
+          >
+          <span class="text-gray-700">3–4 sets</span>
+          <span class="text-gray-700">5–8 reps</span>
+          <span class="text-gray-700">Focus on heavy weight & form</span>
+        </div>
+      </div>
+
+      <!-- Single-Arm Dumbbell Row -->
+      <div
+        class="flex flex-col items-center gap-6 p-7 md:flex-row rounded-2xl bg-white shadow-md mb-6"
+      >
+        <div>
+          <img
+            class="size-48 shadow-xl rounded-md"
+            alt="./IMAGESSOURCE/SINGLEARMROW.gif"
+            src="https://newlife.com.cy/wp-content/uploads/2019/11/02921301-Dumbbell-Bent-over-Row_back_Back_360.gif"
+          />
+        </div>
+        <div class="exercise-info">
+          <span class="text-2xl font-semibold">Single-Arm Dumbbell Row</span>
+          <span class="font-medium text-sky-500"
+            >Focuses on lats and traps unilaterally.</span
+          >
+          <span class="text-gray-700">3 sets</span>
+          <span class="text-gray-700">10–12 reps each arm</span>
+          <span class="text-gray-700">Use bench for support</span>
+        </div>
+      </div>
+
+      <!-- Seated Cable Row -->
+      <div
+        class="flex flex-col items-center gap-6 p-7 md:flex-row rounded-2xl bg-white shadow-md mb-6"
+      >
+        <div>
+          <img
+            class="size-48 shadow-xl rounded-md"
+            alt="./IMAGESSOURCE/SEATEDROW.gif"
+            src="https://www.inspireusafoundation.org/file/2023/09/cable-row.gif"
+          />
+        </div>
+        <div class="exercise-info">
+          <span class="text-2xl font-semibold">Seated Cable Row</span>
+          <span class="font-medium text-sky-500"
+            >Adds thickness and engages the mid-back.</span
+          >
+          <span class="text-gray-700">3 sets</span>
+          <span class="text-gray-700">10–12 reps</span>
+          <span class="text-gray-700">Squeeze lats at contraction</span>
+        </div>
+      </div>
+
+      <!-- T-Bar Row -->
+      <div
+        class="flex flex-col items-center gap-6 p-7 md:flex-row rounded-2xl bg-white shadow-md mb-6"
+      >
+        <div>
+          <img
+            class="size-48 shadow-xl rounded-md"
+            alt="./IMAGESSOURCE/TBAR.gif"
+            src="https://www.inspireusafoundation.org/wp-content/uploads/2021/10/t-bar-row-muscles.gif"
+          />
+        </div>
+        <div class="exercise-info">
+          <span class="text-2xl font-semibold">T-Bar Row</span>
+          <span class="font-medium text-sky-500"
+            >Heavy compound row for dense mid-back.</span
+          >
+          <span class="text-gray-700">3 sets</span>
+          <span class="text-gray-700">8–10 reps</span>
+          <span class="text-gray-700">Strict form, heavy load</span>
+        </div>
+      </div>
+
+      <!-- Inverted Rows -->
+      <div
+        class="flex flex-col items-center gap-6 p-7 md:flex-row rounded-2xl bg-white shadow-md mb-6"
+      >
+        <div>
+          <img
+            class="size-48 shadow-xl rounded-md"
+            alt="./IMAGESSOURCE/INVERTED.gif"
+            src="https://www.inspireusafoundation.org/file/2022/03/inverted-row.gif"
+          />
+        </div>
+        <div class="exercise-info">
+          <span class="text-2xl font-semibold">Inverted Rows</span>
+          <span class="font-medium text-sky-500"
+            >Bodyweight exercise that builds pulling endurance.</span
+          >
+          <span class="text-gray-700">3 sets</span>
+          <span class="text-gray-700">10–15 reps</span>
+          <span class="text-gray-700">Adjust bar height for difficulty</span>
+        </div>
+      </div>
+
+      <!-- Chin-Ups -->
+      <div
+        class="flex flex-col items-center gap-6 p-7 md:flex-row rounded-2xl bg-white shadow-md mb-6"
+      >
+        <div>
+          <img
+            class="size-48 shadow-xl rounded-md"
+            alt="./IMAGESSOURCE/CHINUPS.gif"
+            src="https://www.inspireusafoundation.org/file/2023/04/band-assisted-chin-up.gif"
+          />
+        </div>
+        <div class="exercise-info">
+          <span class="text-2xl font-semibold">Chin-Ups</span>
+          <span class="font-medium text-sky-500"
+            >Underhand grip, hits lats and biceps.</span
+          >
+          <span class="text-gray-700">3 sets</span>
+          <span class="text-gray-700">8–12 reps</span>
+          <span class="text-gray-700">Can add weight if strong</span>
+        </div>
+      </div>
+
+      <!-- Face Pulls -->
+      <div
+        class="flex flex-col items-center gap-6 p-7 md:flex-row rounded-2xl bg-white shadow-md mb-6"
+      >
+        <div>
+          <img
+            class="size-48 shadow-xl rounded-md"
+            alt="./IMAGESSOURCE/FACEPULL.gif"
+            src="https://www.inspireusafoundation.org/file/2023/01/banded-face-pull.gif"
+          />
+        </div>
+        <div class="exercise-info">
+          <span class="text-2xl font-semibold">Face Pulls</span>
+          <span class="font-medium text-sky-500"
+            >Targets rear delts, traps, and upper back posture.</span
+          >
+          <span class="text-gray-700">3 sets</span>
+          <span class="text-gray-700">12–15 reps</span>
+          <span class="text-gray-700">Focus on control and squeeze</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
