@@ -3,99 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Workout Picker</title>
   </head>
-  <body style="background-color: beige">
-    <header>
-      <nav></nav>
-    </header>
-    <main>
-      <h1>Which are part you are picking?</h1>
+  <body class="min-h-screen flex flex-col relative">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
 
-      <div
-        style="
-          width: 320px;
-          margin: 10px auto;
-          padding: 10px;
-          border: 1px solid #ccc;
-          text-align: center;
-        "
-      >
-        <a href="chest.html" style="text-decoration: none; color: black">
-          <img
-            src="https://www.gymreapers.com/cdn/shop/articles/header-image-01_Cable-chest-workout---maximizing-your-muscle-growth.jpg?v=1721671171&width=1024"
-            alt="CHEST"
-            style="width: 300px; height: auto"
-          />
-          <div>CHEST</div>
-        </a>
-      </div>
+    <div class="relative z-10 flex flex-col min-h-screen">
+      <!-- Header -->
+      <header class="bg-gray-00 bg-opacity-90 text-white py-4 shadow-md">
+        <h1 class="text-center text-2xl font-bold tracking-wide">
+          Which part are you picking?
+        </h1>
+      </header>
 
-      <div
-        style="
-          width: 320px;
-          margin: 10px auto;
-          padding: 10px;
-          border: 1px solid #ccc;
-          text-align: center;
-        "
-      >
-        <a href="back.html" style="text-decoration: none; color: black">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3z-3SVoinf6EGZXv7KRQfwAz91KD_TyOg3xnFHpxFKiF8CsF1-YtWWDOLxIXgtW1eHJI&usqp=CAU"
-            alt="BACK"
-            style="width: 300px; height: auto"
-          />
-          <div>BACK</div>
-        </a>
-      </div>
+      <!-- Main -->
+      <main class="flex-grow">
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6 max-w-6xl mx-auto"
+        >
+          <!-- Chest -->
+          <a
+            href="chest.html"
+            class="block rounded-xl overflow-hidden bg-white bg-opacity-90 shadow hover:shadow-xl transition transform hover:scale-105"
+          >
+            <img
+              src="./IMAGESSOURCE/MAINCHEST.jpg"
+              alt="CHEST"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-4 text-center font-semibold text-gray-800">CHEST</div>
+          </a>
 
-      <div
-        style="
-          width: 320px;
-          margin: 10px auto;
-          padding: 10px;
-          border: 1px solid #ccc;
-          text-align: center;
-        "
-      >
-        <a href="legs.html" style="text-decoration: none; color: black">
-          <img
-            src="https://fitnessvolt.com/wp-content/uploads/2025/08/bigger-legs-without-squats-350x250.jpg"
-            alt="LEGS"
-            style="width: 300px; height: auto"
-          />
-          <div>LEGS</div>
-        </a>
-      </div>
+          <!-- Back -->
+          <a
+            href="back.html"
+            class="block rounded-xl overflow-hidden bg-white bg-opacity-90 shadow hover:shadow-xl transition transform hover:scale-105"
+          >
+            <img
+              src="./IMAGESSOURCE/MAINBACK.jfif"
+              alt="BACK"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-4 text-center font-semibold text-gray-800">BACK</div>
+          </a>
 
-      <div
-        style="
-          width: 320px;
-          margin: 10px auto;
-          padding: 10px;
-          border: 1px solid #ccc;
-          text-align: center;
-        "
+          <!-- Legs -->
+          <a
+            href="legs.html"
+            class="block rounded-xl overflow-hidden bg-white bg-opacity-90 shadow hover:shadow-xl transition transform hover:scale-105"
+          >
+            <img
+              src="./IMAGESSOURCE/MAINLEGS.jpg"
+              alt="LEGS"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-4 text-center font-semibold text-gray-800">LEGS</div>
+          </a>
+
+          <!-- Shoulders & Arms -->
+          <a
+            href="sharms.html"
+            class="block rounded-xl overflow-hidden bg-white bg-opacity-90 shadow hover:shadow-xl transition transform hover:scale-105"
+          >
+            <img
+              src="./IMAGESSOURCE/MAINSHARMS.webp"
+              alt="SHOULDERS and ARMS"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-4 text-center font-semibold text-gray-800">
+              SHOULDERS & ARMS
+            </div>
+          </a>
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer
+        class="bg-gray-900 bg-opacity-80 text-center py-6 mt-10 border-t border-gray-700"
       >
-        <a href="sharms.html" style="text-decoration: none; color: black">
-          <img
-            src="https://www.dmoose.com/cdn/shop/articles/MicrosoftTeams-image_3946f9ea-6053-49fe-8c14-4080fc88253b.jpg?v=1681378878"
-            alt="LEGS"
-            style="width: 300px; height: auto"
-          />
-          <div>SHOULDERS and ARMS</div>
-        </a>
-      </div>
-    </main>
-    <footer>
-      <p>
-        Copyright 2025<img
-          src="https://i.pinimg.com/474x/3f/c8/12/3fc81274aef4fce9c012ec53d8918d29.jpg"
-          alt=""
-          style="width: 300px; height: auto"
-        />
-      </p>
-    </footer>
+        <p class="text-gray-300 text-sm">© 2025 Workout Planner</p>
+      </footer>
+    </div>
   </body>
 </html>
